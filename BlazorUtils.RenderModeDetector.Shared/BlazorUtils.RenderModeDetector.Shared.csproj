@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Patch>0</Patch>
+    <VersionPrefix>$(Major).$(Minor).$(Patch)</VersionPrefix>
+    <AssemblyVersion>$(Major).0.0.0</AssemblyVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Authors>Bartosz Pawluk</Authors>
+    <Title>$(AssemblyName)</Title>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Copyright>Copyright Bartosz Pawluk</Copyright>
+    <PackageProjectUrl>https://github.com/bpawluk/RenderModeDetector</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bpawluk/RenderModeDetector</RepositoryUrl>
+    <PackageTags>blazor; utils; render; mode; detector</PackageTags>
+    <Description>Detects current Render Mode in Blazor apps</Description>
+    <PackageIcon>logo-128x128.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Assets\logo-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
