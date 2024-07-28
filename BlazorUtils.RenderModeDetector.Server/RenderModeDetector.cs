@@ -1,5 +1,4 @@
-﻿using BlazorUtils.RenderModeDetector.Shared;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 
 namespace BlazorUtils.RenderModeDetector.Server;
 

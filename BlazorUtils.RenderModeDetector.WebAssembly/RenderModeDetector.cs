@@ -1,6 +1,4 @@
-﻿using BlazorUtils.RenderModeDetector.Shared;
-
-namespace BlazorUtils.RenderModeDetector.WebAssembly;
+﻿namespace BlazorUtils.RenderModeDetector.WebAssembly;
 
 internal class RenderModeDetector : IRenderModeDetector
 {

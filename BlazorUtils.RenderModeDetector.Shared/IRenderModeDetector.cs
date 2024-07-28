@@ -1,4 +1,4 @@
-﻿namespace BlazorUtils.RenderModeDetector.Shared;
+﻿namespace BlazorUtils.RenderModeDetector;
 
 public interface IRenderModeDetector
 {

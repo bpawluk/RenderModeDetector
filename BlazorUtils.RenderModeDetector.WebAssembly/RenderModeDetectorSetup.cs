@@ -1,5 +1,4 @@
-﻿using BlazorUtils.RenderModeDetector.Shared;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace BlazorUtils.RenderModeDetector.WebAssembly;
 
